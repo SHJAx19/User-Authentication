@@ -1,0 +1,181 @@
+body{
+background:linear-gradient(white ,rgb(73, 26, 174) 1000px) ;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;
+padding: 0%;
+margin: 0%;
+}
+.header{
+    background-color: #e3ddf3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+
+}
+.left-side{
+   display: flex;
+    width: 150px;
+    align-items: center;
+
+}
+.logo{
+    height: 100px;
+    cursor: pointer;
+}
+
+.right-side{
+    margin-right: 30px;
+    display: flex;
+    width: 250px;
+    align-items: center; 
+    justify-content: space-between;
+
+}
+.header-inputs{
+    border: none;
+    background-color: transparent;
+    font-family: sans-serif;
+    font-size: 15px;
+    cursor:pointer;
+}
+.header-inputs:hover{
+    text-decoration: underline;
+}
+.box1{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px ;
+    height: 600px;
+    width: 400px;
+    margin-left: 650px;
+    border-radius: 20px;
+}
+.texts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+h1{
+    font-family: Arial;
+    margin-top: 65px;
+    margin-bottom: 10px;
+    color:rgb(73, 26, 174) ;
+    
+}
+h3{
+    font-family: Arial;
+    font-weight: lighter;
+    margin-top: 0%;
+    margin-bottom: 80px;
+    color:rgb(73, 26, 174) ;
+}
+.email{
+    background-color:transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid silver;
+    width: 300px;
+    height: 50px;
+    padding-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.email::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.password{
+    background-color:transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid silver;
+    width: 300px;
+    height: 50px;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+.buttons{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+}
+.sign{  
+    font-size: 15px;
+    font-family: Arial;
+    color: white;
+    background-color: rgb(110, 43, 227);
+    height: 50px;
+    width: 100px;
+    border-radius: 25px;
+    border: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.sign:hover{
+    opacity: 0.9;
+    transition: 0.4s;
+}
+.forgot{
+    border: none;
+    background-color:transparent;
+    font-family: Arial;
+    cursor: pointer;
+}
+.forgot:hover{
+    text-decoration: underline;
+}
+.bottom-buttons{
+    display: flex;
+    flex-direction: column;
+}
+.e-dev{
+    font-size: 15px;
+    font-family: Arial;
+    color: white;
+    background-color:rgb(236, 58, 58);
+    height: 50px;
+    width: 300px;
+    border-radius: 25px;
+    border: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.e-dev:hover{
+    opacity: 0.9;
+}
+.micro{
+    font-size: 15px;
+    font-family: Arial;
+    color: white;
+    background-color: rgb(110, 43, 227);
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.micro:hover{
+    opacity: 0.9;
+}
+.social{
+    display: flex;
+    width: 400px;
+align-items: center;
+    margin-top: 10px;
+}
+.soc{
+    height: 25px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+
+
